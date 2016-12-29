@@ -1,4 +1,14 @@
 
+<#
+
+.SYNOPSIS
+This script was created to print a label with text that you specify.  The script should prompt you for the text to print as well as the quantity of labels you would like.
+
+.NOTES
+Change the variables at the start of the script and you should be good to run it and print a label.
+
+#>
+
 $Username = [Environment]::UserName
 $printer = "Friendly Name of Printer"
 $ip = "192.168.x.x"
